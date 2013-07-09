@@ -1,11 +1,11 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
  <head>
-   <meta charset = "utf-8">
+   <meta charset ="utf-8">
    <title>My First Bitstarter</title>
-     <link type= "text/css" rel = "style sheet" href="https://d396qusza4orc.cloudfront.net/startup%2Fcode       %2Fbootstrap-2.3.2.css">
-     <style type = "text/css">
-    body{
+     <link type="text/css" rel ="style sheet" href="https://d396qusza4orc.cloudfront.net/startup%2Fcode%2Fbootstrap-2.3.2.css">
+     <style type ="text/css">
+    .body{
         padding-top : 20px;
         padding-bottom : 40px;
         }
@@ -15,20 +15,25 @@ width : 960px;
 p.lead{
 padding-top : 15px;
 }
-.navigation,.pitch,.section,.section2.faq,.footer{
+.navigation, .pitch, .section1, .section2 .faq, .footer{
 padding : 10px 0px 10px 0px;
 }
-.video,.thermometer,.order,.social{
-border:1px dotted;
+.video, .thermometer, .order, .social{
+border: 1px dotted;
 text-align : center ;
 }
 .video{
 /*Internal borders have 1px width thus need to add 4x1px to 120px.*/
-height:40px;
-line-height:40px;
+height: 124px;
+line-height: 124px;
+}
+.thermometer, .order, .social{
+ /*line-height to vertically center: http://phogrz.net/css/vertical align/index.html*/
+ height : 40px;
+ line-height : 40px;
 }
 div.row{
-border:1px solid;
+border: 1px solid;
 }
 </style>
 </head>
@@ -46,7 +51,7 @@ About
 </div>
 </div>
 <div class="row heading">
-<div class+"span12">
+<div class="span12">
 <h1>Bitstarter Title</h1>
 </div>
 </div>
@@ -81,7 +86,7 @@ Marketing Section1
 Marketing Section2
 </div>
 </div>
-<div class+"rowfaq">
+<div class="rowfaq">
 <div class="span12">
 FAQ
 </div>
